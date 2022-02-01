@@ -23,7 +23,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="walkthrough.gif" width=250><br>
+<img src="new_walkthrough.gif" width=250><br>
 
 ### Notes
 During Part 1 of this app, I had some issues getting the layout margins correct. In both portrait and landscape mode, the title and description would overlap the poster image and go offscreen to the right. I went back to the video walkthrough, but still had trouble trying to have the text display properly. I had to adjust the size of the text boxes themselves in order to resolve the issue.
@@ -32,3 +32,4 @@ During Part 1 of this app, I had some issues getting the layout margins correct.
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+- [Glide Transformations](https://github.com/wasabeef/glide-transformations) - Transforms images loaded from Glide
