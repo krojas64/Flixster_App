@@ -26,7 +26,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="walkthrough.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+During Part 1 of this app, I had some issues getting the layout margins correct. In both portrait and landscape mode, the title and description would overlap the poster image and go offscreen to the right. I went back to the video walkthrough, but still had trouble trying to have the text display properly. I had to adjust the size of the text boxes themselves in order to resolve the issue.
 
 ### Open-source libraries used
 
