@@ -7,8 +7,9 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="357dp"
+        android:layout_height="272dp"
+        android:layout_margin="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -17,7 +18,9 @@
         android:id="@+id/tvTitle"
         android:layout_width="365dp"
         android:layout_height="62dp"
-        android:layout_marginStart="5dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_bold"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -27,10 +30,11 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="364dp"
-        android:layout_height="111dp"
+        android:layout_width="346dp"
+        android:layout_height="205dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/ivPoster"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle"
         tools:text="Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man." />
