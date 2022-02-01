@@ -15,19 +15,20 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="62dp"
         android:layout_marginStart="5dp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Spider-Man: No Way Home" />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="111dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toEndOf="@id/ivPoster"
