@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textSize="24sp"
+        android:transitionName="profile"
         tools:text="Spider-Man: No Way Home" />
 
     <RatingBar

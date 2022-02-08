@@ -22,6 +22,7 @@
         android:layout_marginTop="4dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:fontFamily="@font/montserrat_bold"
+        android:transitionName="profile"
         android:textSize="18sp" />
 
     <TextView
